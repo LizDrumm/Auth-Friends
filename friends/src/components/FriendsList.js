@@ -23,7 +23,7 @@ const FriendsList = () => {
 
   useEffect(() => {
     getData();
-  }, []);
+  }, [friends]);
 
   const onSubmit = (e) => {
     e.preventDefault();
